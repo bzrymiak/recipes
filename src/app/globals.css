@@ -6,6 +6,7 @@
   --grey: #A0A0A0;
   --hover: #E1DAD1;
   --beige: #F5EEE5;
+  --brown: #9d8f83;
 }
 
 @theme inline {
@@ -16,6 +17,7 @@
   --color-myGrey: var(--grey);
   --color-myBeige: var(--beige);
   --color-hover: var(--hover);
+  --color-brown: var(--brown);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,20 +34,33 @@ body {
 }
 
 .px {
-  padding-inline: 5rem;
+  padding-inline: 3rem;
 }
 
 .py {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-h1 {
+.nav-text {
+  font-size: 1.25rem;
+}
+
+.caption {
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+h1, h2 {
   font-size: 2.5rem;
   font-weight: bold;
-  letter-spacing: -1;
+  letter-spacing: -0.5;
 }
 
-h2 {
-  font-size: 1rem;
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.5;
+  margin-bottom: 0.5rem;
 }
