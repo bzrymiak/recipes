@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       
       <section className="px py">
-        <h1 className="mt-8">Recipe Book</h1>
+        <h1 className="mt-8">Cookbook</h1>
         <h2 className="text-brown caption">(digitized)</h2>
       </section>
 
@@ -16,7 +16,7 @@ export default function Home() {
           <h3>Navigation</h3>
            <Button title={"breakfast"} cta={"#"}></Button>
            <Button title={"lunch"} cta={"#"}></Button>
-           <Button title={"dinner"} cta={"#"}></Button>
+           <Button title={"dinner"} cta={"/dinner"}></Button>
            <Button title={"seasonal"} cta={"#"}></Button>
         </div>
        
