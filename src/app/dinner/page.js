@@ -43,7 +43,7 @@ function page() {
     <div className="px py">
         <h2 className="mt-8 mb-6">Dinner</h2>
 
-        <div className="flex flex-row gap-2 pb-8">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-2 pb-8">
             {tags.map((item, key) => (
 
                 <div key={item.title}>
@@ -52,7 +52,7 @@ function page() {
             ))}
         </div>
 
-        <div className="flex flex-row gap-8">
+        <div className="flex flex-col gap-4 md:flex-row md:gap-8">
             {recipes.map((item, key) => (
                 // <div id={item.tag} key={item.title} className="max-w-60">
                     <RecipeCard 

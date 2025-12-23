@@ -11,7 +11,7 @@ function recipeCard({ title, time, desc, img, cta}) {
         </div>
         
         <div className="p-8">
-            <h3>{title}</h3>
+            <h3 className='mb-2'>{title}</h3>
             <h4 className="caption">{time}</h4>
 
             <p>{desc ?? " "}</p>

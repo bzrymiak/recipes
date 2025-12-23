@@ -8,7 +8,7 @@ function navbar() {
             <h1 className="nav-text hover:text-brown">Recipe Book</h1>
         </a>
         <div>
-            <Button title={"dinner"} cta={"/dinner"}></Button>
+            <Button title={"Dinner"} cta={"/dinner"}/>
         </div>
     </div>
   )
