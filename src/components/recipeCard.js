@@ -8,7 +8,7 @@ function recipeCard({ title, time, desc, img, cta }) {
     >
       <div className="img-container">
         <img
-          src="/assets/marry-me-chicken.jpg"
+          src={img}
           alt="recipe"
           width={1200}
           height={1200}

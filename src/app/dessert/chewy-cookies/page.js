@@ -4,18 +4,18 @@ import Button from "@/components/button";
 
 function page() {
   const ingredients = [
-    { quantity: "3 tbsp", name: "extra-virgin olive oil" },
-    { quantity: "4", name: "boneless, skinless chicken breasts" },
-    { quantity: " ", name: "kosher salt" },
-    { quantity: " ", name: "black pepper" },
-    { quantity: "2", name: "garlic cloves" },
-    { quantity: "1 tbsp", name: "fresh thyme leaves" },
-    { quantity: "1 tsp", name: "crushed red pepper flakes" },
-    { quantity: "3/4 cup", name: "low-sodium chicken broth" },
-    { quantity: "1/2 cup", name: "finely-chopped sun-dried tomatoes" },
-    { quantity: "1/2 cup", name: "heavy cream" },
-    { quantity: "1/4 cup", name: "finely grated parmesan" },
-    { quantity: " ", name: "torn fresh basil, for serving" },
+    { quantity: "Group 1", name: "↓ " },
+    { quantity: "1 cup", name: "butter" },
+    { quantity: "1/2 cup", name: "sugar" },
+    { quantity: "2", name: "eggs" },
+    { quantity: "2 1/2 tsp", name: "vanilla" },
+    { quantity: "1 1/2 cups", name: "brown sugar" },
+    { quantity: "Group 2", name: "↓" },
+    { quantity: "2 1/2 - 3 cups", name: "flour" },
+    { quantity: "2/4 tsp", name: "salt" },
+    { quantity: "1 tsp", name: "baking powder" },
+    { quantity: "1 tsp", name: "baking soda" },
+    { quantity: " ", name: "chocolate chips" },
   ];
 
   const notes = ["No notes for this recipe."];
@@ -23,19 +23,15 @@ function page() {
   const steps = [
     {
       step: "1",
-      desc: "Arrange a rack in center of oven; preheat to 375°. In a large ovenproof skillet over medium-high heat, heat 1 Tbsp. oil. Generously season chicken with salt and black pepper and cook, turning halfway through, until golden brown, about 5 minutes per side. Transfer chicken to a plate.",
+      desc: "Preheat the oven to 350°. Mix ingredient groups #1 and #2 separately.",
     },
     {
       step: "2",
-      desc: "In same skillet over medium heat, heat remaining 2 Tbsp. oil. Stir in garlic, thyme, and red pepper flakes. Cook, stirring, until fragrant, about 1 minute. Stir in broth, tomatoes, cream, and Parmesan; season with salt. Bring to a simmer, then return chicken and any accumulated juices to skillet.",
+      desc: "Combine the groups and add chocolate chips.",
     },
     {
       step: "3",
-      desc: "Transfer skillet to oven. Bake chicken until cooked through and an instant-read thermometer inserted into thickest part registers 165°, 10 to 12 minutes.",
-    },
-    {
-      step: "4",
-      desc: "Arrange chicken on a platter. Spoon sauce over. Top with basil.",
+      desc: 'Place golfvall sized portions 2" apart. Bake 9-10 mins or until edges are light brown.',
     },
   ];
 
@@ -46,13 +42,13 @@ function page() {
       </div>
 
       <div className="py grid md:grid-cols-[max-content_2fr] gap-20">
-        <section className="flex flex-col gap-12 static">
+        <section className="flex flex-col gap-12 max-w-94">
           <TitleCluster
-            title="Marry Me Chicken"
-            meal="dinner"
-            serv="4"
+            title="Chewy Chocolate Chip Cookies"
+            meal="dessert"
+            serv="24?"
             prep="10 mins"
-            time="40 mins"
+            time="20 mins"
           />
 
           <div>

@@ -5,33 +5,33 @@ import RecipeCard from "@/components/recipeCard";
 function page() {
   const tags = [
     {
-      title: "Quick Meals",
+      title: "Cookies",
       cta: " ",
     },
     {
-      title: "Low Carb",
+      title: "Baking",
       cta: " ",
     },
     {
-      title: "Sides",
+      title: "Party Food",
       cta: " ",
     },
   ];
 
   const recipes = [
     {
-      title: "Marry Me Chicken",
+      title: "Chewy Chocolate Chip Cookies",
       time: "20 min",
-      desc: "Chicken & Pasta",
-      img: "assets/marry-me-chicken.jpg",
-      cta: "/dinner/marry-me-chicken",
-      tag: "gf",
+      desc: "Cookies",
+      img: "assets/chewy-cookies.jpg",
+      cta: "/dessert/chewy-cookies",
+      tag: "cookies",
     },
   ];
 
   return (
     <div className="px py">
-      <h2 className="mt-8 mb-6">Dinner</h2>
+      <h2 className="mt-8 mb-6">Dessert</h2>
 
       <div className="flex flex-col md:flex-row gap-6 md:gap-2 pb-8">
         {tags.map((item, key) => (
@@ -43,7 +43,6 @@ function page() {
 
       <div className="flex flex-col gap-4 md:flex-row md:gap-8">
         {recipes.map((item, key) => (
-          // <div id={item.tag} key={item.title} className="max-w-60">
           <RecipeCard
             title={item.title}
             time={item.time}
@@ -53,7 +52,6 @@ function page() {
             id={item.tag}
             key={item.title}
           />
-          // {/* </div> */}
         ))}
       </div>
     </div>

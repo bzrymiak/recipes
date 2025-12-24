@@ -86,6 +86,7 @@ h5 {
   overflow: hidden;
   align-items: center;
   justify-content: center;
+  max-height: 17.375rem;
 }
 
 .img-container img {
@@ -102,7 +103,6 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
-
   width: 100%;
   justify-content: space-between;
   overflow: visible;
