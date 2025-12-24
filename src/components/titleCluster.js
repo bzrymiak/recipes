@@ -8,7 +8,7 @@ function titleCluster({ title, meal, serv, prep, time}) {
             <h4 className='text-brown caption'>{meal ?? "misc. category"}</h4>
         </div>
 
-        <div className="bg-myBeige p-5 gap-3 flex flex-wrap flex-row justify-between">
+        <div className="bg-myBeige p-5 gap-3 flex flex-wrap flex-row justify-between max-w-90">
             <div>
                 <h5 className='text-brown'>Servings</h5>
                 <p>{serv ?? "?"}</p>
