@@ -37,7 +37,7 @@ function page() {
 
   return (
     <div className="px overflow-hidden">
-      <div className="pt-8 md:pt-12 mb-8">
+      <div className="pt-6 mb-2">
         <Button title="Return to Search" cta="./" />
       </div>
 

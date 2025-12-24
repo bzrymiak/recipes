@@ -9,8 +9,8 @@ export default function Home() {
         <h2 className="text-brown caption">(digitized)</h2>
       </section>
 
-      <section className="pb-16 flex flex-row justify-between align-baseline gap-60">
-        <div className="px flex flex-col justify-end gap-2">
+      <section className="pb-16 flex flex-col gap-0 md:flex-row justify-between align-baseline md:gap-60">
+        <div className="px flex flex-col justify-end gap-2 invisible md:visible">
           <h3>Navigation</h3>
           <Button title={"Breakfast"} cta={"/breakfast"}></Button>
           <Button title={"Lunch"} cta={"/lunch"}></Button>
