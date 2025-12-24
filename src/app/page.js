@@ -12,8 +12,8 @@ export default function Home() {
       <section className="pb-16 flex flex-row justify-between align-baseline gap-60">
         <div className="px flex flex-col justify-end gap-2">
           <h3>Navigation</h3>
-          <Button title={"Breakfast"} cta={"#"}></Button>
-          <Button title={"Lunch"} cta={"#"}></Button>
+          <Button title={"Breakfast"} cta={"/breakfast"}></Button>
+          <Button title={"Lunch"} cta={"/lunch"}></Button>
           <Button title={"Dinner"} cta={"/dinner"}></Button>
           <Button title={"Dessert"} cta={"/dessert"}></Button>
         </div>
