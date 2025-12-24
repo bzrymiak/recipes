@@ -31,7 +31,7 @@ function page() {
     },
     {
       step: "3",
-      desc: 'Place golfvall sized portions 2" apart. Bake 9-10 mins or until edges are light brown.',
+      desc: 'Place golfball sized portions 2" apart. Bake 9-10 mins or until edges are light brown.',
     },
   ];
 
