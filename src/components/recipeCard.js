@@ -12,7 +12,7 @@ function recipeCard({ title, time, desc, img, cta }) {
           alt="recipe"
           width={1200}
           height={1200}
-          className="w-full h-auto"
+          className="w-full h-full object-cover"
         />
       </div>
 

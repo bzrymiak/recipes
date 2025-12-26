@@ -27,6 +27,14 @@ function page() {
       cta: "/dessert/chewy-cookies",
       tag: "cookies",
     },
+    {
+      title: "Häagen-Dazs Ice Cream Truffles",
+      time: "120 min",
+      desc: "Ice Cream Treat",
+      img: "assets/hd-truffles.png",
+      cta: "/dessert/hd-truffles",
+      tag: "ice-cream",
+    },
   ];
 
   return (
