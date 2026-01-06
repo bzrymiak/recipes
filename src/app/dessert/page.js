@@ -26,7 +26,7 @@ const allCards = [
     desc: "Cookies",
     img: "assets/chewy-cookies.jpg",
     cta: "/dessert/chewy-cookies",
-    category: ["COOKIES"],
+    category: ["COOKIES", "CHOCOLATE"],
   },
   {
     title: "Häagen-Dazs Ice Cream Truffles",
@@ -52,7 +52,6 @@ function page() {
       setCards(allCards);
     } else {
       const filtered = allCards.filter((card) => {
-        // you have categories as strings and array of strings
         return (
           card.category === currentCard || card.category.includes(currentCard)
         );
