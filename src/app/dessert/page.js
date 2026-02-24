@@ -4,21 +4,6 @@ import React, { useState, useEffect } from "react";
 import Button from "@/components/button.js";
 import RecipeCard from "@/components/recipeCard";
 
-// const tags = [
-//   {
-//     title: "Cookies",
-//     cta: " ",
-//   },
-//   {
-//     title: "Baking",
-//     cta: " ",
-//   },
-//   {
-//     title: "Chocolate",
-//     cta: " ",
-//   },
-// ];
-
 const allCards = [
   {
     title: "Chewy Chocolate Chip Cookies",
